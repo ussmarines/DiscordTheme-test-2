@@ -1,0 +1,32 @@
+{
+  "theme": "Clayloom",
+  "date": "2026-09-11",
+  "url": "https://raw.githubusercontent.com/ussmarines/DiscordTheme-test-2/main/dist/Clayloom.theme.css",
+  "httpStatus": 200,
+  "bytes": 19728,
+  "sha256": "0bc6577e742b22030506ace9f8dce3e53224f043688312a6b70f524001f8226e",
+  "matchesLocal": true,
+  "onlineLoaded": true,
+  "modes": [
+    {
+      "mode": "dark",
+      "dark": true,
+      "background": "rgb(44, 39, 33)",
+      "accent": "hsl(from #efb398 h calc(s * 1) l)",
+      "localThemes": [],
+      "onlineLinks": [
+        "https://raw.githubusercontent.com/ussmarines/DiscordTheme-test-2/main/dist/Clayloom.theme.css"
+      ]
+    },
+    {
+      "mode": "light",
+      "dark": false,
+      "background": "rgb(250, 245, 233)",
+      "accent": "hsl(from #8a3d24 h calc(s * 1) l)",
+      "localThemes": [],
+      "onlineLinks": [
+        "https://raw.githubusercontent.com/ussmarines/DiscordTheme-test-2/main/dist/Clayloom.theme.css"
+      ]
+    }
+  ]
+}
