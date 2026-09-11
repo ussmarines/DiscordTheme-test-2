@@ -1,0 +1,14 @@
+.theme-light {
+  --cl-canvas: #eee7da;
+  --cl-surface: #faf5e9;
+  --cl-raised: #fffcf4;
+  --cl-ink: #34291f;
+  --cl-muted: #685441;
+  --cl-line: #957c63;
+  --cl-accent: hsl(from var(--cl-accent-light) h calc(s * var(--saturation-factor, 1)) l);
+  --cl-on-accent: #ffffff;
+  --cl-wash: color-mix(in srgb, var(--cl-accent) 12%, var(--cl-surface));
+  --cl-hover: color-mix(in srgb, var(--cl-ink) 7%, var(--cl-surface));
+  --cl-rule: color-mix(in srgb, var(--cl-line) 40%, var(--cl-surface));
+  --cl-shadow: 0 8px 24px #172d3e18;
+}

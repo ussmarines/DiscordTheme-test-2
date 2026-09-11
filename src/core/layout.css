@@ -1,0 +1,12 @@
+:is(.theme-dark, .theme-light) :is([class^="sidebarList_"], [class*=" sidebarList_"]) { margin: 0 var(--cl-panel-gap) var(--cl-panel-gap) 0; border-radius: var(--cl-radius); background: var(--cl-surface); }
+:is(.theme-dark, .theme-light) :is([class^="page_"], [class*=" page_"]) { border-start-start-radius: calc(var(--cl-radius) + 8px); overflow: clip; }
+:is(.theme-dark, .theme-light) :is([class^="link_"], [class*=" link_"]) { border-radius: 24px; margin-block: 3px; padding-block: 3px; }
+:is(.theme-dark, .theme-light) :is([class^="interactiveSelected_"], [class*=" interactiveSelected_"]) { border-radius: 24px; font-weight: 650; }
+:is(.theme-dark, .theme-light) :is([class^="channelTextArea_"], [class*=" channelTextArea_"]) { border-radius: var(--cl-radius) var(--cl-radius) var(--cl-radius) 6px; border-color: var(--cl-rule); box-shadow: 0 3px 8px #291c1012; }
+:is(.theme-dark, .theme-light) :is([class^="reaction_"], [class*=" reaction_"]) { border-radius: 20px; padding-inline: 3px; }
+:is(.theme-dark, .theme-light) :is([class^="membersGroup_"], [class*=" membersGroup_"]) { padding-top: 26px; text-transform: none; font-weight: 650; }
+:is(.theme-dark, .theme-light) :is([class^="itemCard_"], [class*=" itemCard_"]) { padding: 18px; border: 0; }
+:is(.theme-dark, .theme-light) [role="menu"] { padding: 8px; }
+:is(.theme-dark, .theme-light) [role="menuitem"] { padding-block: 9px; }
+:is(.theme-dark, .theme-light) [role="tab"][aria-selected="true"] { border-radius: 20px; background: var(--cl-wash); }
+@media (max-width: 1000px) { :is(.theme-dark, .theme-light) :is([class^="sidebarList_"], [class*=" sidebarList_"]) { margin-inline-end: 0; } }

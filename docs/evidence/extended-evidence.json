@@ -1,0 +1,40 @@
+[
+  {
+    "theme": "Clayloom",
+    "mode": "dark",
+    "picker": {
+      "found": true,
+      "width": 496,
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "profile": {
+      "found": true,
+      "width": 300,
+      "background": "rgb(56, 49, 40)"
+    },
+    "search": {
+      "found": true,
+      "results": 3,
+      "background": "rgb(32, 28, 24)"
+    }
+  },
+  {
+    "theme": "Clayloom",
+    "mode": "light",
+    "picker": {
+      "found": true,
+      "width": 496,
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "profile": {
+      "found": true,
+      "width": 300,
+      "background": "rgb(255, 252, 244)"
+    },
+    "search": {
+      "found": true,
+      "results": 3,
+      "background": "rgb(238, 231, 218)"
+    }
+  }
+]

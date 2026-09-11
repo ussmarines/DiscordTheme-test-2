@@ -1,0 +1,14 @@
+.theme-dark {
+  --cl-canvas: #201c18;
+  --cl-surface: #2c2721;
+  --cl-raised: #383128;
+  --cl-ink: #f8efe2;
+  --cl-muted: #d1c1ae;
+  --cl-line: #9b8772;
+  --cl-accent: hsl(from var(--cl-accent-dark) h calc(s * var(--saturation-factor, 1)) l);
+  --cl-on-accent: #201c18;
+  --cl-wash: color-mix(in srgb, var(--cl-accent) 12%, var(--cl-surface));
+  --cl-hover: color-mix(in srgb, var(--cl-ink) 7%, var(--cl-surface));
+  --cl-rule: color-mix(in srgb, var(--cl-line) 40%, var(--cl-surface));
+  --cl-shadow: 0 8px 24px #00000040;
+}

@@ -1,0 +1,8 @@
+:root {
+  /* Override these in Custom CSS / QuickCSS; mode-specific accents stay readable. */
+  --cl-accent-dark: #efb398;
+  --cl-accent-light: #8a3d24;
+  --cl-radius: 20px;
+  --cl-panel-gap: 12px;
+  --cl-motion: 180ms;
+}

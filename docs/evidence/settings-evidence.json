@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "Clayloom",
+    "mode": "platform-win theme-dark images-dark density-default font-size-16 keyboard-mode has-webkit-scrollbar full-motion app-focused visual-refresh hardware-acceleration-disabled",
+    "cssMode": "theme-dark images-dark modalContentInner_e44912",
+    "ink": "rgb(248, 239, 226)",
+    "surface": "rgb(44, 39, 33)",
+    "accent": "hsl(from #efb398 h calc(s * 1) l)",
+    "clip": {
+      "x": 112.5,
+      "y": 72,
+      "width": 1400,
+      "height": 935,
+      "scale": 1
+    }
+  },
+  {
+    "theme": "Clayloom",
+    "mode": "platform-win theme-light images-light density-default font-size-16 keyboard-mode has-webkit-scrollbar full-motion app-focused visual-refresh hardware-acceleration-disabled",
+    "cssMode": "theme-light images-light modalContentInner_e44912",
+    "ink": "rgb(52, 41, 31)",
+    "surface": "rgb(250, 245, 233)",
+    "accent": "hsl(from #8a3d24 h calc(s * 1) l)",
+    "clip": {
+      "x": 112.5,
+      "y": 72,
+      "width": 1400,
+      "height": 935,
+      "scale": 1
+    }
+  }
+]

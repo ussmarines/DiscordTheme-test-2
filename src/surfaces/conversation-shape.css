@@ -1,0 +1,17 @@
+/* Text receives the softer geometry; avatars and action hitboxes stay native. */
+:is(.theme-dark, .theme-light) [id^="message-content-"]:not([class*="repliedTextContent_"]) {
+  width: fit-content;
+  max-width: 76ch;
+  box-sizing: border-box;
+  padding: 9px 13px;
+  margin-block: 4px;
+  margin-inline-start: 0;
+  background: var(--cl-raised);
+  border-radius: 18px 18px 18px 5px;
+}
+:is(.theme-dark, .theme-light) [class*="repliedMessage_"] {
+  margin-block-end: 5px;
+}
+:is(.theme-dark, .theme-light) [class*="reaction_"] {
+  margin-block: 3px;
+}

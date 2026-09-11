@@ -1,0 +1,14 @@
+/* Native Slate uses an important outline reset; this single override restores keyboard focus. */
+:is(.theme-dark, .theme-light) :is(button, a, input, textarea, [role="button"], [role="tab"], [role="menuitem"], [role="switch"], [role="checkbox"], [role="radio"], [role="treeitem"], [role="combobox"], [contenteditable="true"], [tabindex="0"]):focus-visible { outline: 2px solid var(--cl-accent) !important; outline-offset: 2px; }
+:is(.theme-dark, .theme-light) [aria-disabled="true"] { cursor: not-allowed; }
+:is(.theme-dark, .theme-light) [aria-invalid="true"] { outline: 2px dashed var(--text-danger, #c93434); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  :root { --cl-motion: 0ms; }
+}
+.reduce-motion { --cl-motion: 0ms; }
+@media (prefers-contrast: more) {
+  :is(.theme-dark, .theme-light) { --cl-rule: var(--cl-line); }
+}
+@media (forced-colors: active) {
+  :is(.theme-dark, .theme-light) { --cl-canvas: Canvas; --cl-surface: Canvas; --cl-raised: Canvas; --cl-ink: CanvasText; --cl-muted: CanvasText; --cl-accent: Highlight; --cl-on-accent: HighlightText; --cl-line: ButtonText; --cl-rule: ButtonText; --cl-wash: Canvas; --cl-hover: Canvas; --cl-shadow: none; }
+}

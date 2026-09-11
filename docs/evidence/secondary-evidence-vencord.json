@@ -1,0 +1,170 @@
+[
+  {
+    "theme": "Clayloom",
+    "mode": "dark",
+    "messages": {
+      "body": [
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 710.140625,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 710.140625,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 337.25,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 710.140625,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 460.078125,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": 789.609375,
+          "radius": "0px"
+        },
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 539.140625,
+          "radius": "18px 18px 18px 5px"
+        }
+      ],
+      "code": [
+        {
+          "color": "oklab(0.999994 0.0000455678 0.0000200868)",
+          "background": "oklab(0.57742 0.0140622 -0.208604 / 0.0784314)",
+          "width": 278.125,
+          "radius": "4px"
+        }
+      ],
+      "embed": [
+        {
+          "color": "rgb(248, 239, 226)",
+          "background": "rgb(56, 49, 40)",
+          "width": 521,
+          "radius": "20px"
+        }
+      ],
+      "spoilerHidden": false
+    },
+    "spoilerRevealed": true,
+    "menu": {
+      "visible": true,
+      "color": "rgb(32, 28, 24)",
+      "background": "rgb(56, 49, 40)",
+      "items": 17
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid",
+      "width": "2px"
+    },
+    "small": {
+      "viewport": 1000,
+      "globalOverflow": false,
+      "composerVisible": true
+    }
+  },
+  {
+    "theme": "Clayloom",
+    "mode": "light",
+    "messages": {
+      "body": [
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 716.21875,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 716.21875,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 339.796875,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 716.21875,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 464.96875,
+          "radius": "18px 18px 18px 5px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgba(0, 0, 0, 0)",
+          "width": 789.609375,
+          "radius": "0px"
+        },
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 545.3125,
+          "radius": "18px 18px 18px 5px"
+        }
+      ],
+      "code": [
+        {
+          "color": "oklab(0.338541 0.00199024 -0.012109)",
+          "background": "oklab(0.57742 0.0140622 -0.208604 / 0.0392157)",
+          "width": 280.40625,
+          "radius": "4px"
+        }
+      ],
+      "embed": [
+        {
+          "color": "rgb(52, 41, 31)",
+          "background": "rgb(255, 252, 244)",
+          "width": 521,
+          "radius": "20px"
+        }
+      ],
+      "spoilerHidden": false
+    },
+    "spoilerRevealed": true,
+    "menu": {
+      "visible": true,
+      "color": "rgb(238, 231, 218)",
+      "background": "rgb(255, 252, 244)",
+      "items": 17
+    },
+    "focus": {
+      "visible": true,
+      "outline": "solid",
+      "width": "2px"
+    },
+    "small": {
+      "viewport": 1000,
+      "globalOverflow": false,
+      "composerVisible": true
+    }
+  }
+]
